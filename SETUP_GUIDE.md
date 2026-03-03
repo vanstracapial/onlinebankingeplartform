@@ -6,6 +6,9 @@ Complete instructions for setting up and running the entire Vanstra Capital bank
 
 - **Node.js** (v14+) - [Download](https://nodejs.org/)
 - **MongoDB** (v4.4+) - [Download](https://www.mongodb.com/try/download/community) or use [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
+
+> **Optional alternative:** the backend can operate entirely from a simple JSON file (`backend/data/users.json`).
+> Create that file containing `[]` and the server will read/write user records there. This is handy for lightweight testing without running a database.
 - **Visual Studio Code** or any code editor
 - **Git** (optional)
 
