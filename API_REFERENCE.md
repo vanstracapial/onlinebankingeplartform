@@ -41,7 +41,7 @@ Create new user account
     "id": "507f1f77bcf86cd799439011",
     "fullName": "John Doe",
     "email": "john@example.com",
-    "accountNumber": "DE1234567890",
+    "accountNumber": "DE74 1234 5678 9012 3456 78",
     "accountBalance": 5000,
     "role": "user"
   }
@@ -70,7 +70,7 @@ Login with email and password
     "id": "507f1f77bcf86cd799439011",
     "fullName": "John Smith",
     "email": "john@vanstra.bank",
-    "accountNumber": "DE123456",
+    "accountNumber": "DE74 1234 5678 9012 3456 78",
     "accountBalance": 5000,
     "role": "user",
     "accountStatus": "active"
@@ -98,7 +98,7 @@ Get current authenticated user
     "id": "507f1f77bcf86cd799439011",
     "fullName": "John Smith",
     "email": "john@vanstra.bank",
-    "accountNumber": "DE123456",
+    "accountNumber": "DE74 1234 5678 9012 3456 78",
     "accountBalance": 5000,
     "role": "user",
     "accountStatus": "active",
@@ -136,12 +136,12 @@ Get current user profile
 ```json
 {
   "success": true,
-  "user": {
+    "user": {
     "id": "507f1f77bcf86cd799439011",
     "fullName": "John Smith",
     "email": "john@vanstra.bank",
     "phone": "+49111222333",
-    "accountNumber": "DE123456",
+    "accountNumber": "DE74 1234 5678 9012 3456 78",
     "accountBalance": 5000,
     "accountStatus": "active",
     "isOnline": true,
@@ -180,7 +180,7 @@ Update current user profile
     "fullName": "John Smith Updated",
     "email": "john@vanstra.bank",
     "phone": "+49111222333",
-    "accountNumber": "DE123456",
+    "accountNumber": "DE74 1234 5678 9012 3456 78",
     "accountBalance": 5000,
     "avatar": "https://example.com/avatar.jpg"
   }
@@ -286,7 +286,7 @@ Get all users
       "id": "507f1f77bcf86cd799439011",
       "fullName": "John Smith",
       "email": "john@vanstra.bank",
-      "accountNumber": "DE123456",
+        "accountNumber": "DE74 1234 5678 9012 3456 78",
       "accountBalance": 5000,
       "accountStatus": "active",
       "isOnline": false,
@@ -316,7 +316,7 @@ Get single user by ID
     "fullName": "John Smith",
     "email": "john@vanstra.bank",
     "phone": "+49111222333",
-    "accountNumber": "DE123456",
+    "accountNumber": "DE74 1234 5678 9012 3456 78",
     "accountBalance": 5000,
     "accountStatus": "active",
     "isOnline": false,

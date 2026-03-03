@@ -523,7 +523,7 @@ interface UserObject {
     email: string;
     dateOfBirth: string;              // YYYY-MM-DD
     phone: string;
-    accountNumber: string;            // e.g., DE1234567890
+    accountNumber: string;            // e.g., DE74 1234 5678 9012 3456 78
     accountType: string;              // 'Checking', 'Savings'
     balance: number;                  // In EUR
     currency: string;                 // 'EUR'
